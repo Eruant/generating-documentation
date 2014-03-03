@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>The source code</title>
+  <link href="../resources/prettify/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="../resources/prettify/prettify.js"></script>
+  <style type="text/css">
+    .highlight { display: block; background-color: #ddd; }
+  </style>
+  <script type="text/javascript">
+    function highlight() {
+      document.getElementById(location.hash.replace(/#/, "")).className = "highlight";
+    }
+  </script>
+</head>
+<body onload="prettyPrint(); highlight();">
+  <pre class="prettyprint lang-js"><span id='Person-method-constructor'><span id='Person'>/**
+</span></span> * @class Person
+ * A human being in code form.
+ *
+ * @author Matt Gale &lt;matt@littleball.co.uk&gt;
+ *
+ * Usage:
+ *     var Person = require('./Person');
+ *
+ *     var bob = new Person('Bob');
+ *     bob.sayHello(); // output -&gt; &quot;Hi I'm Bob!&quot;
+ *
+ * @constructor
+ * Creates a new Person instance
+ * @param {String} name The name of the person
+ */
+var Person = function (name) {
+  this.name = name;
+};
+
+<span id='Person-method-sayHello'>/**
+</span> * @method sayHello
+ * Returns a personal greeting from this person
+ *
+ * @return {String} Personal Greeting
+ */
+Person.prototype.sayHello = function () {
+    return 'Hi I\'m ' + this.name + '!';
+};
+
+<span id='Person-method-renamePerson'>/**
+</span> * @method renamePerson
+ * Changes the name of this person
+ *
+ * @param {String} newName The new name of the person
+ *
+ * @return {String} A message about the change of name
+ */
+Person.prototype.renamePerson = function (newName) {
+  var oldName = this.name;
+  this.name = newName;
+  return oldName + ' has changed their name to ' + this.name;
+};
+
+<span id='global-property-exports'>/**
+</span> * @ignore
+ * Exporting the module (the class has already been documented above)
+ */
+module.exports = Person;
+</pre>
+</body>
+</html>

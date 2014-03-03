@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Writting documentation",
+    "items": [
+      {
+        "name": "getting_started",
+        "url": "guides/getting_started",
+        "title": "Getting started",
+        "description": "Getting set up with writing your documentation"
+      },
+      {
+        "name": "documenting_javascript",
+        "url": "guides/documenting_javascript",
+        "title": "Documenting JavaScript",
+        "description": "A guide to adding code hints to your JavaScript code"
+      },
+      {
+        "name": "documenting_scss",
+        "url": "guides/documenting_scss",
+        "title": "Documenting SCSS",
+        "description": "A guide to adding code hints to your SCSS files"
+      },
+      {
+        "name": "creating_guides",
+        "url": "guides/creating_guides",
+        "title": "Creating guides",
+        "descrption": "A guide on writting guides. Like inception"
+      }
+    ]
+  }
+]

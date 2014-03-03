@@ -1,0 +1,1 @@
+Ext.data.JsonP.creating_guides({"guide":"<h1>Creating guides</h1>\n","title":"Creating guides"});
