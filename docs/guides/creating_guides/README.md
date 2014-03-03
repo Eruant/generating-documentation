@@ -74,7 +74,7 @@ Each guide is written in markdown. Headings should use `#`, and start with `<h1>
 
 Adding [links][links] and [images][images] can be done with standard markdown, but it's better to link internally with `@link` or `@img` tags.
 
-See the [guidelines][guidelines] for details.
+See the [guidelines][guidelines] for details on formating.
 
 
 [guidelines]: https://github.com/senchalabs/jsduck/wiki/Guides#wiki-formatting
