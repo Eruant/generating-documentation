@@ -15,12 +15,6 @@
         "description": "A guide to adding code hints to your JavaScript code"
       },
       {
-        "name": "documenting_scss",
-        "url": "guides/documenting_scss",
-        "title": "Documenting SCSS",
-        "description": "A guide to adding code hints to your SCSS files"
-      },
-      {
         "name": "creating_guides",
         "url": "guides/creating_guides",
         "title": "Creating guides",
