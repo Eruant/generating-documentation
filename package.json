@@ -1,0 +1,8 @@
+{
+  "name": "autoDocs",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-shell": "~0.2.4"
+  }
+}
