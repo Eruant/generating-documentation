@@ -15,6 +15,9 @@
  * @param {String} name The name of the person
  */
 var Person = function (name) {
+  if (!name) {
+    return;
+  }
   this.name = name;
 };
 
