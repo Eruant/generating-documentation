@@ -1,4 +1,4 @@
 .DS_Store
-docs/data-*
+docs/*
 node_modules/*
 .DS_Store
